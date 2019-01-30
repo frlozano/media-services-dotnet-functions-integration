@@ -290,7 +290,7 @@
                   "assetId": "@{body('create-empty-asset')['assetId']}"
                 },
                 "function": {
-                  "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('functionsAppResourceGroup'),'/providers/Microsoft.Web/sites/',variables('trimfunctionsAppName'),'/functions/generate-ism-manifest')]"
+                  "id": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',parameters('functionsAppResourceGroup'),'/providers/Microsoft.Web/sites/',variables('trimfunctionsAppName'),'/functions/generate-manifest')]"
                 }
               }
             },
